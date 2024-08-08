@@ -1,0 +1,487 @@
+*{
+    font-family:"Poppins", sans-serif;
+#seriv{
+    display: grid;
+    grid-column: auto;}
+    #port{ 
+        margin-top: 20px;
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 96%;
+        font-size: 28px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;}
+        #menu{
+            margin-left: 40%;}
+            #menu a{
+                margin-left: 20px;
+                font-weight: 400;
+                font-size: 16px;
+                text-align: center;
+                text-decoration: none;
+                color: #070F18;
+                text-decoration: none;}
+             #menu a:hover{
+                color: red;}           
+#pt2{
+    margin-top: 25px;
+    display: grid;
+    grid-column: auto;}
+    #apres{
+        display: flex;
+       flex-direction: row;
+       margin-left: 2%;
+       margin-right: 2%;
+       width: 96%; }
+    #text{
+        width: 36%;}
+        #text h1{
+            font-size: 55px;
+            font-weight:700;
+            color: #000000;
+            font-family: "Poppins", sans-serif; }
+        #text p1{
+            font-size: 16px;
+            font-weight: 400;}
+        #text button{
+            margin-top: 20px;
+            color: white;
+            background-color: #1F7CFF;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 10px;
+            width: 180px;
+            border: none;
+            cursor: pointer;}
+    #cafe{
+        width: auto;}
+        #img{ 
+            width: 540px;
+            height: 350px;
+            border-radius: 25px;
+            border: none;}
+#pt3{
+    display: grid;
+    grid-column: auto;}
+    #cli{ 
+        margin-top: 40px;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;}
+       #cli h{
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 15%;}
+       .fa-brands{
+         width: 21%}
+#pt4{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    width: 70%;}
+    #pt4 h{ 
+            color: #F75C4E;
+            font-size: 16px;
+            font-weight: 700;}
+    #pt4 p1{
+            color: #000000;
+            font-size:36px ;
+            font-weight: 700 ;}
+    #pt4 p2{ 
+            color:#575455 ;
+            font-size: 16px;
+            font-weight: 400;}
+#pt5{
+    display: grid;
+    grid-column: auto}
+    #ico{
+        margin-top: 40px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;  
+        display: flex;
+        flex-direction: row}
+        #mala{
+            width: auto;
+            text-align: center;}
+        #mala h{
+            width: 30%;
+            color: #070F18;
+            font-size: 20px;
+            font-weight: 600; }
+        #tel{
+            width: auto;
+            text-align: center;}
+        #tel h{
+            width: 30%;
+            color: #070F18;
+            font-size: 20px;
+            font-weight: 600;}
+        #glo{
+            width: auto;
+            text-align: center;}
+        #glo h{ 
+            width: 30%;
+            color: #070F18;
+            font-size: 20px;
+            font-weight: 600;}
+#pt6{ 
+    display: grid;
+    grid-column: auto;}
+    #for{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;}
+        #duas{
+            width: auto;}
+        #duas #img{
+            width: 500px;
+            height: 380px;
+            border-radius: 20px;
+            border: none;}
+        #form{
+            margin-left: 10px;
+            margin-top: 50px;
+            width:35%;}
+        #form h{
+            font-weight: 700;
+            font-size: 16px;
+            color: #F75C4E;}
+        #form p1{
+            color: #000000;
+            font-size: 36px;
+            font-weight: 700;}
+        #form p2{
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;}
+            #email{ 
+                width: 50%;
+                background-color: #F5F6FB;
+                color: #575455;
+                border: none;
+                border-radius: 10px;}
+            #form button{
+                width: 200px;
+                background-color: #1F7CFF;
+                cursor: pointer;
+                color:#ffffff;
+                border: none;
+                border-radius: 10px;}
+#pt7{
+    display:grid;
+    grid-column: auto;}
+    #pt7 #text{
+        margin-top: 80px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;}
+    #pt7 #text h{
+        color: #F75C4E;
+        font-size: 16px;
+        font-weight: 700;}
+    #pt7 #text p{
+        color: #000000;
+        font-size: 36px;
+        font-weight: 700 ; }
+    #fotos{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;}
+        #fotos #bexar{
+        width: auto;}
+            #fotos #bexar img{
+                width: auto;
+                height: 200px;
+                border-radius: 30px;
+                border: none;}
+        #fotos #busi{
+            width:auto;}
+            #fotos #busi img{
+               width: auto;
+               height: 200px ;
+               border-radius: 30px;
+               border: none;}
+        #fotos #best{
+            width: auto;}
+            #fotos #best img{
+                width: auto ;
+                height: 200px ;
+                border-radius: 30px;
+                border: none;}
+            }
+
+ @media only screen and (max-width: 833px) {
+    #seriv{
+        display: grid;
+        grid-column: auto;}
+        #port{ 
+            margin-top: 20px;
+            margin-right: 2%;
+            margin-left: 2%;
+            width: 96%;
+            font-size: 28px;
+            font-weight: 600;
+            display: flex;
+            flex-direction: row;}
+            #menu{
+                margin-left: 30%;}
+                #menu a{
+                    margin-left: 15px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-align: center;
+                    text-decoration: none;
+                    color: #070F18;
+                    text-decoration: none;}
+              #pt2{
+                margin-top: 25px;
+                display: grid;
+                grid-column: auto;}
+                #apres{
+                    display: flex;
+                   flex-direction: row;
+                   margin-left: 2%;
+                   margin-right: 2%;
+                   width: 96%; }
+                #text{
+                    width: 36%;}
+                    #text h1{
+                        font-size: 35px;
+                        font-weight:700;
+                        color: #000000;
+                        font-family: "Poppins", sans-serif; }
+                    #text p1{
+                        font-size: 16px;
+                        font-weight: 400;}
+                    #text button{
+                        margin-top: 20px;
+                        color: white;
+                        background-color: #1F7CFF;
+                        font-size: 16px;
+                        font-weight: 600;
+                        border-radius: 10px;
+                        width: 180px;
+                        border: none;
+                        cursor: pointer;}
+                    #img{ 
+                        width: 450px;
+                        height: 300px;
+                        border-radius: 25px;
+                        border: none;} 
+        #pt3{
+            display: grid;
+            grid-column: auto;}
+            #cli{ 
+                margin-top: 40px;
+                width: 96%;
+                margin-left: 2%;
+                margin-right: 2%;}
+               #cli h{
+                font-size: 16px;
+                font-weight: 600;
+                margin-right: 10%;}
+               .fa-brands{
+                 width: 23%;}
+        #pt5{
+            display: grid;
+            grid-column: auto;}
+        #pt5 #ico{
+            margin-top: 40px;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;  
+            display: flex;
+            flex-direction: row}
+            #mala{
+                width: auto;
+                text-align: center;}
+            #mala h{
+                width: 30%;
+                color: #070F18;
+                font-size: 25px;
+                font-weight: 600;
+                width: auto;
+                text-align: center;}
+            #tel{
+                width: auto;
+                text-align: center;}
+            #tel h{
+                width: 30%;
+                color: #070F18;
+                font-size: 25px;
+                font-weight: 600;}
+            #glo{
+                width: auto;
+                text-align: center;}
+            #glo h{ 
+                width: 30%;
+                color: #070F18;
+                font-size: 25px;
+                font-weight: 600;}
+            #pt6{display: grid;
+                grid-column: auto;}
+            #pt6 #for{display: flex;
+            flex-direction: row;}
+            #duas #img{width: 500px;
+                       height: 420px;}
+            #for #form  #email{ 
+                        width:100%;
+                        background-color: #F5F6FB;
+                        color: #575455;
+                        border: none;
+                        border-radius: 10px;}
+            #for #form button{
+                        width: 100%;
+                        background-color: #1F7CFF;
+                        cursor: pointer;
+                        color:#ffffff;
+                        border: none;
+                        border-radius: 10px;}
+            #pt7{
+                display: grid;
+                grid-column: auto;
+            }
+            #pt7 #fotos{display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+            }
+                    #fotos #bexar img{
+                        width: 450px;
+                        height: 300px ;
+                        border-radius: 30px;
+                        border: none;}
+                    #fotos #busi img{
+                       width: 450px;
+                       height: 300px ;
+                       border-radius: 30px;
+                       border: none;}
+                    #fotos #best img{
+                        width: 450px;
+                       height: 2300px ;
+                       border-radius: 30px;
+                       border: none;}
+                    }
+@media only screen and (max-width: 320px) {
+    #servi{display: grid;
+        grid-column: auto;}
+        #port{width: 20%;}
+        #menu{display: flex;
+              flex-direction: column;
+              width: 90%;}
+              #pt2{
+                margin-top: 25px;
+                display: grid;
+                grid-column: auto;}
+                #apres{
+                    display: flex;
+                   flex-direction: column;}
+                    #img{ 
+                        width: 250px;
+                        height: 200px;
+                        border-radius: 25px;
+                        border: none;} 
+        #pt3{
+            display: grid;
+            grid-column: auto;}
+            #cli{ 
+                margin-top: 40px;
+                width: 96%;
+                margin-left: 2%;
+                margin-right: 2%;}
+               #cli h{
+                font-size: 12px;
+                font-weight: 600;
+                margin-right: 10%;}
+               .fa-brands{
+                   display: flex;
+                   flex-direction: column;}
+        #pt5{
+            display: grid;
+            grid-column: auto;}
+        #pt5 #ico{
+            margin-top: 40px;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;  
+            display: flex;
+            flex-direction: row}
+            #mala{
+                width: auto;
+                text-align: center;}
+            #mala h{
+                width: 30%;
+                color: #070F18;
+                font-size: 15px;
+                font-weight: 400;
+                width: auto;
+                text-align: center;}
+            #tel{
+                width: auto;
+                text-align: center;}
+            #tel h{
+                width: 30%;
+                color: #070F18;
+                font-size: 15px;
+                font-weight: 400;}
+            #glo{
+                width: auto;
+                text-align: center;}
+            #glo h{ 
+                width: 30%;
+                color: #070F18;
+                font-size: 15px;
+                font-weight: 400;}
+            #pt6{display: grid;
+                grid-column: auto;}
+            #pt6 #for{display: flex;
+            flex-direction: column;}
+            #duas #img{width: 250px;
+                       height: 200px;}
+            #for #form  #email{ 
+                        width: 200px;
+                        background-color: #F5F6FB;
+                        color: #575455;
+                        border: none;
+                        border-radius: 10px;}
+            #for #form button{
+                        width: 200px;
+                        background-color: #1F7CFF;
+                        cursor: pointer;
+                        color:#ffffff;
+                        border: none;
+                        border-radius: 10px;}
+            #pt7{
+                display: grid;
+                grid-column: auto;
+            }
+            #pt7 #fotos{display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+            }
+                    #fotos #bexar img{
+                        width: 250px;
+                        height: 200px ;
+                        border-radius: 30px;
+                        border: none;}
+                    #fotos #busi img{
+                       width: 250px;
+                       height: 200px ;
+                       border-radius: 30px;
+                       border: none;}
+                    #fotos #best img{
+                        width: 250px;
+                       height: 200px ;
+                       border-radius: 30px;
+                       border: none;}
+        }
+        
